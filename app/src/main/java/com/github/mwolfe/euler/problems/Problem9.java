@@ -1,11 +1,11 @@
-package com.github.mwolfe.euler;
+package com.github.mwolfe.euler.problems;
 
 /**
  * Created by mwolfe on 7/3/14.
  */
-public class Problem9 {
+public class Problem9 extends AbstractProblem {
 
-    public static String solve() {
+    public String computeAnswer()  {
 
         for (int a=1; a<1000; a++) {
             for (int b=1; b<1000;b++) {
@@ -17,8 +17,6 @@ public class Problem9 {
                        return "" + a*b*c;
                    }
                }
-
-
             }
         }
         return "Not found?";

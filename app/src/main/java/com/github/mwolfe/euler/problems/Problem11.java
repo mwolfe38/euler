@@ -1,9 +1,9 @@
-package com.github.mwolfe.euler;
+package com.github.mwolfe.euler.problems;
 
 /**
  * Created by mwolfe on 7/3/14.
  */
-public class Problem11 {
+public class Problem11 extends AbstractProblem {
 
     public static final String input =
             "08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08 " +
@@ -28,7 +28,7 @@ public class Problem11 {
             "01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48 ";
 
     public static final int MAX = 20;
-    public static String solve() {
+    public String computeAnswer() {
         int[][] array = new int[MAX][MAX];
         for (int i=0; i<MAX; i++) {
             for (int j=0; j<MAX; j++) {

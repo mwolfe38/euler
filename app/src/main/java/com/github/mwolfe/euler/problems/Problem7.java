@@ -1,11 +1,11 @@
-package com.github.mwolfe.euler;
+package com.github.mwolfe.euler.problems;
 /**
  * Created by mwolfe on 7/3/14.
  */
-public class Problem7 {
+public class Problem7 extends AbstractProblem {
 
 
-    public static String solve() {
+    public String computeAnswer()  {
         long curPrime = 3;
         int primeCount = 2;
         for (long i=5; i<Long.MAX_VALUE; i+=2) {

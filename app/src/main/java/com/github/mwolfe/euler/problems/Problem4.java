@@ -1,8 +1,8 @@
-package com.github.mwolfe.euler;
+package com.github.mwolfe.euler.problems;
 /**
  * Created by mwolfe on 7/3/14.
  */
-public class Problem4 {
+public class Problem4 extends AbstractProblem {
 
 
     public static boolean isPalindrome(int num) {
@@ -14,9 +14,9 @@ public class Problem4 {
             num = num / 10;
         }
         return orig == revNum;
-
     }
-    public static String solve() {
+
+    public String computeAnswer() {
         int largest = 0, product = 0;
         for (int i=100; i<1000;i++) {
 

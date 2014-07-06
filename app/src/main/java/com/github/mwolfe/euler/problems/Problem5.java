@@ -1,11 +1,11 @@
-package com.github.mwolfe.euler;
+package com.github.mwolfe.euler.problems;
 
 /**
  * Created by mwolfe on 7/3/14.
  */
-public class Problem5 {
+public class Problem5 extends AbstractProblem {
 
-    public static String solve() {
+    public String computeAnswer()  {
         boolean found = false;
         long currentHigh = 2520;
         long i = currentHigh;

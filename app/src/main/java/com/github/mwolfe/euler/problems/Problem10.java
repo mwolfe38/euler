@@ -1,11 +1,11 @@
-package com.github.mwolfe.euler;
+package com.github.mwolfe.euler.problems;
 
 /**
  * Created by mwolfe on 7/3/14.
  */
-public class Problem10 {
+public class Problem10 extends AbstractProblem {
 
-    public static String solve() {
+    public String computeAnswer()  {
         long sum = 10;
 
         for (long i=7; i<2000000; i+=2) {
